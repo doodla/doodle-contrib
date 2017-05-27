@@ -1,0 +1,12 @@
+[Unit]
+Description=doodle gunicorn daemon
+After=network.target
+
+[Service]
+User=doodla
+Group=www-data
+WorkingDirectory=/home/doodla/doodle
+ExecStart=/home/doodla/doodle/venv/bin/gunicorn --workers 3 --bind unix:/home/doodla/doodle/doodle.sock app.wsgi:application
+
+[Install]
+WantedBy=multi-user.target
