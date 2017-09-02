@@ -3,7 +3,7 @@ users:
   - name: doodla
     ssh-authorized-keys: 
       - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQCk4emQqQ8fdCIJFkQQUdeUVb5pga2tu+yLN7GQevrNzMv1gT+zYnM0yK7bbLGUml6tJssE2VUMfcAq7Y1voxpDZymEiFpdjh9vi82GfsVPcwPRtfyw4mJCLkwPAzhPhdRl9B5W4z+cJV8Z01F3OnIfUl7wHZK3HwilsrX+68c+93Q8yNTQM0+cgGCNHIrwFo14PVFP+HzjaGrgoQGPKg3+FcNYbcaXZnXL/Z9XwUAiXOaiokvFodC4OopS+aodab3mKZfOIKFa5DtfkgVS7FUCLJ1PilOZG9rQeAoQxCoMeQ4hNVpLpOkTCeCtWFDqL6ntH7WbabI10hMecNU7ph/H sridhar.vadlamani@svadl-mb15tbr
-      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC64/a9oz7+ZEEo46mMExRZYAYL1iVZFVcsclIbYnbNQsahJOUAQiaYNV22eKLsvysVynxLt2Dch+idXInNnsWQP4kbxpzdSwwiVyB2KW5tyxZhheSvYXgRA8MZ/jWlKvs0FznJCt5eHYhTxHfzdFXvP+rnfurIk2d+ee4l+nP6R0MCAu84JUfIA+mjBVix4AL1ffsBQkT4AeyIRb4uR2ghCjpf5hBetdiSXQ6voER3aFPeVww4MUlipkRazIGWnKLHyECBeQODIR7aWglH0NwFUwMGjAQVG9xci8h6c2PoPk7/1IVK/34on5DzDC2VNI0S0y5pQSqJN69GO8t1HcsL doodla@DOODLA-PC
+      - ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQD0OrDTxe3m9QtOIhLsJOOqkUrn3xDvsJe0E1AIiZvxkA8aUMERV8ckb16BI4MOYBTBzJDg4JBhBQyZFnjCUxr6as+dDcyR2BssEn1ouDqp6UK7QweCGYhJfxqE0o+tjx3JWBB2/UnEtxDHbsscb//mwdQHPiFu1ejeI+aal0LyNhcqjrMpB3d4Di2jACbSsfeJAEmMp5AWoqNZuTGeCXkrB8ndEmdPXShEm1++EH7LWOrBIbFC+O53+9Tor7dMZRbnM4wZ6XSSguggLX5iwkCcxZgAiYiZWxtAmZLDkDHoMIhrLr7iqfRxZQc7ygEqKGfhV1R61Sbz4rRdcSCMc1iN doodla@DOODLA-PC
     sudo: ['ALL=(ALL) NOPASSWD:ALL']
     groups: sudo
     shell: /bin/bash
